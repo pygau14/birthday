@@ -107,23 +107,16 @@ function createFireworks() {
         '#ff9ec8', '#ffbdd4', '#ffd1e6'
     ];
 
-    // 23 Personal appreciation messages - genuine and heartfelt
+    // Personal appreciation messages - genuine and heartfelt
     const messages = [
-        "Happy 23rd Birthday, Manya",
-        "You are worthy of love that feels calm, kind, and full of respect.",
-        "Your heart has been through storms, and still, it knows how to love deeply.",
-        "You deserve peace that stays, not one that has to be earned.",
-        "I admire your strength, even when life didn't make it easy for you to be strong.",
-        "You are not defined by your past- you are the grace that grew from it.",
-        "Every part of you: the loud, the quiet, the uncertain, deserves to be understood.",
         "You are enough, even when you feel like you're not doing enough.",
-        "Your laughter carries light; it changes the energy around you.",
-        "Your resilience in the face of challenges inspires me every single day.",
+        "Your laughter carries light, it changes the energy around you.",
+        "You are allowed to take your time to heal, to choose yourself, and to grow.",
         "I'm grateful for every version of you that trusted me with a little part of her heart.",
-        "I see the woman you're becoming. Powerful, wise, and soft.",
+        "I see the woman you're becoming, more powerful, wise, and soft.",
+        "You have the rare ability to make ordinary moments feel special.",
         "I wish for your heart to find peace in places that once brought pain.",
-        "Your presence has the power to transform ordinary moments into beautiful memories.",
-        "Your kindness has a way of touching hearts in ways you might never know.",
+        "You are magic, not because of how you look, but because of how you make people feel.",
         "I hope you never doubt your worth again, it's infinite.",
         "You've made me understand love beyond words, beyond mistakes.",
         "You are deserving of a love that never makes you question your value.",
@@ -131,7 +124,7 @@ function createFireworks() {
         "You are my reminder that love isn't perfect, but it can still be pure.",
         "May this new year of your life bring you calm mornings and fearless nights.",
         "No matter where life takes us, a part of my heart will always wish you peace, happiness, and love.",
-        "Thank you for everything betu"
+        "Thank you for everything my cutest kid, adu will always be proud of you!"
     ];
 
     const particles = [];
@@ -139,8 +132,8 @@ function createFireworks() {
     let animationId;
     let fireworkCount = 0;
 
-    // Create multiple fireworks - keep it subtle with fewer fireworks
-    const numFireworks = Math.min(7, messages.length); // Just 7 fireworks for subtle effect
+    // Create multiple fireworks - one for each message
+    const numFireworks = messages.length; // Show all messages
     
     function createFirework(fireworkIndex) {
         // Use center-upper area for better visibility
